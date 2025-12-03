@@ -1,0 +1,54 @@
+package smartlibrary;
+
+// Öğrenci sınıfı - Bir öğrenciyi temsil eder
+public class Student {
+    private int id;
+    private String name;
+    private String department;
+
+    // Parametresiz constructor
+    public Student() {
+    }
+
+    // Parametreli constructor
+    public Student(int id, String name, String department) {
+        this.id = id;
+        this.name = name;
+        this.department = department;
+    }
+
+    // Yeni kayıt için constructor
+    public Student(String name, String department) {
+        this.name = name;
+        this.department = department;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    @Override
+    public String toString() {
+        return "ID: " + id + " | İsim: " + name + " | Bölüm: " + department;
+    }
+}

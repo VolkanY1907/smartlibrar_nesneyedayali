@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SmartLibrary Başlat",
+            "request": "launch",
+            "mainClass": "smartlibrary.Main",
+            "projectName": "smartlibrary"
+        }
+    ]
+}
